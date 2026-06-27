@@ -26,6 +26,7 @@ Simple CLI task tracker built with Go (no external libraries).
 
 ## 📁 Project Structure
 
+```
 task-cli/
 ├── main.go # Entry point
 ├── commands.go # CLI commands (add, list, update, dll)
@@ -35,9 +36,7 @@ task-cli/
 ├── tasks.json # Data storage (ignored by git)
 ├── .gitignore
 └── go.mod
-
-
----
+```
 
 ## Usage
 ```bash
